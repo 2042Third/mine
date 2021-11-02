@@ -5,9 +5,9 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Unencrypted File Upload</title>
+<title>Mining File Server</title>
 <link rel='stylesheet' href='style.css'  type="text/css" >
-<title>PDM crypto</title>
+<title>Mining File Server</title>
 </head>
 
 
@@ -17,7 +17,7 @@
 
 
 <center>
-    <h1>Unencrypted File Upload</h1>
+    <h1>Mining File Server</h1>
     <form method="post" action="Upload"
         enctype="multipart/form-data">
         Select file to upload: <input type="file" name="file"  /><br />

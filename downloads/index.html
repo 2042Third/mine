@@ -7,56 +7,13 @@
     <script src="./js/jquery-3.6.0.min.js"></script>
     <script src="./jquery-ui-1.13.0/jquery-ui.min.js"></script>
     <link rel="stylesheet" href="./jquery-ui-1.13.0/jquery-ui.css">
-    <script>
-    $( document ).ready(function() {
-//        $("button").click(function(){
-            var data = new FormData();
-            data.append('listings','files list');
-            $.ajax( {
-                url: '../Upload',
-                type: 'POST',
-                data: data,
-                processData: false,
-                contentType: false,
-                success: function(data) {
-                    var response = jQuery.parseJSON(data);
-                    if(response.code == "success") {
-                        console.log("Success!");
-                    } else if(response.code == "failure") {
-                        console.log(response.err);
-                    }
-                    getList(response);
-
-                }
-            } );
-//        });
-    });
-    $( window ).on( "load", function() {
-
-    });
-    function getList(a) {
-//        var file_table="";
-        var ct = 0;
-//        console.log(a);
-        for(var b in a["files"]){
-//            console.log(a["files"][b]+"\n");
-            var tmp =a["files"][b];
-            const name_only = tmp.split("/").slice(-1);
-            var hlink = "<a href=\"https://pdm.pw/fileserv"+tmp+"\" class=\"ui-state-default ui-corner-all\" title=\"download\" download><span class=\"ui-icon ui-icon-circle-arrow-s\"></span> </a>";
-            var file_table="<tr><th>"+name_only+"</th><th>"+
-                a["ftimes"][tmp]
-                +"</th><th>"+hlink+"</th></tr>";
-            $("#filelist").append(file_table);
-        }
-    }
-        
-    </script>
+    <script src="./set_up.js"></script>
 
 </head>
 <body>
 <!--    <button>HTTP POST request </button>-->
     <h2>
-    File Server
+    Mining File Server
     </h2>
     <center>
         <table border=1>
