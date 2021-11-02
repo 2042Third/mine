@@ -47,7 +47,7 @@ public class Upload extends HttpServlet {
      */
     protected void doPost(HttpServletRequest request,
             HttpServletResponse response) throws ServletException, IOException {
-        System.out.println("#############FILE###############");
+        System.out.println("#############MINING FILE###############");
         ServiceType serv_type = ServiceType.NON;
         String appPath = request.getServletContext().getRealPath("");
         String savePath = appPath + File.separator + SAVE_DIR;
