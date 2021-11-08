@@ -29,7 +29,7 @@
             const name_only = tmp.split("/").slice(-1);
             var hlink = "<a href=\"https://pdm.pw/mine"+tmp+"\" class=\"ui-state-default ui-corner-all\" title=\"download\" download><span class=\"ui-icon ui-icon-circle-arrow-s\"></span> </a>";
             var file_table="<tr><th>"+name_only+"</th><th>"+
-                a["ftimes"][tmp]
+                a["ftimes"][tmp].split(".")[0].replace("T"," ")
                 +"</th><th>"+hlink+"</th></tr>";
             $("#filelist").append(file_table);
         }
