@@ -1,1 +1,1 @@
-jar cvf ../uploads.war WEB-INF/* downloads/* file-saved/* uploadedFiles/*
+jar cvf ../uploads.war WEB-INF/* file-saved uploadFiles index.jsp message.jsp downloads/* Upload style.css

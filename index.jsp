@@ -24,7 +24,7 @@
         <br /> <input type="submit" value="Upload" />
     </form>
     </br>
-    <a href=https://pdm.pw/mine/downloads> download files </a>
+    <a href=https://pdm.pw/uploads/downloads> download files </a>
 </center>
 
 
@@ -33,8 +33,8 @@
   <a href="https://github.com/2042third" target="_blank">Source</a>
   <br><br>
   <span id="version"></span><br>
-  Copyright (c) 2021 Yang Yi<br>
-  <a href="https://dryangyi.com" target="_blank">dryangyi.com</a>
+  Copyright (c) 2023 Yang Yi<br>
+  <a href="https://pdm.pw" target="_blank">pdm.pw</a>
 </footer>
 
 
