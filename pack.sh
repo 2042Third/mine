@@ -1,3 +1,3 @@
 # !/bin/bash
 
-jar -cvf ../auth.war *
+jar -cvf ../mine.war *

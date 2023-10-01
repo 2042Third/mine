@@ -1,0 +1,1 @@
+jar cvf ../uploads.war WEB-INF/* downloads/* file-saved/* uploadedFiles/*
